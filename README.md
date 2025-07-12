@@ -29,6 +29,7 @@ The portfolio website will include:
 - **UI Components:** Shadcn/ui
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
+- **Backend Integration:** EmailJS
 
 ###  Development Tools
 - **Version Control:** Git
@@ -75,6 +76,27 @@ npm i
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+# Step-by-Step EmailJS Integration in Your Contact Component #
+Step 1: Install EmailJS
+Run this in your terminal:
+
+bash
+Copy
+Edit
+npm install emailjs-com
+🛠️ Step 2: Create Account & Setup on EmailJS
+Go to: https://www.emailjs.com/
+
+Sign up (free)
+Do the following:
+Create Email Service (like Gmail)
+Create Email Template with required fields (like name, message, etc.)
+
+# Note down: #
+
+Service ID
+Template ID
+Public Key (API Key)
 
 ## What technologies are used for this project?
 
